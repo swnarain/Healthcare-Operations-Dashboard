@@ -1,5 +1,8 @@
-# Healthcare-Operations-Dashboard
-Business intelligence dashboard built in Power BI to analyse patient flow, demographics, and departmental performance for data-driven healthcare optimisation.
+## HealthCare Plus: Hospital Operations & Patient Flow Analysis
+End-to-End Data Analytics Project | Operational Strategy | Power BI
+
+<img width="1616" height="912" alt="image" src="https://github.com/user-attachments/assets/8b19e8fe-150e-41af-8fa9-74a337de0126" />
+
 
 **1. Business Context**
 
@@ -8,16 +11,14 @@ HealthCare Plus, a busy urban hospital, is facing operational inefficiencies aff
 This project demonstrates how business intelligence can transform raw patient and visit data into actionable insights for operational improvement.
 
 **2. Problem Statement**
-Hospital leadership lacks a unified view of patient flow, wait times, and departmental performance. Without timely insights, it becomes difficult to optimise staffing, reduce bottlenecks, and plan resources effectively.
-
-This dashboard addresses these challenges by analysing patient demographics, visit patterns, wait times, and diagnosis trends.
+Hospital leadership lacks a unified view of patient flow, wait times, and departmental performance. Without timely insights, it is difficult to optimise staffing, reduce bottlenecks, and plan resources effectively. This dashboard addresses these challenges by centralising and analysing patient demographics, visit patterns, wait times, and diagnosis trends to drive data-informed decision-making.
 
 **3. Project Objectives**
-- Improve visibility into patient flow and wait time efficiency
-- Understand demographic patterns to support resource planning
-- Identify departmental bottlenecks and diagnosis trends
-- Track monthly visit trends for staffing optimisation
-- Provide a detailed, filterable view for deeper clinical analysis
+- **Visibility**: Improving transparency into patient flow and wait time efficiency.
+- **Demographics**: Understanding age-based patterns to support long-term resource planning.
+- **Operational Efficiency**: Identifying departmental bottlenecks and clinical diagnosis trends.
+- **Staffing Optimisation**: Tracking monthly visit cycles to align staffing levels with demand.
+- **Interactive Analysis**: Providing a detailed, filterable view for deep-dive clinical analysi
 
 **4. Data Model**
 The dataset consists of two relational tables:
