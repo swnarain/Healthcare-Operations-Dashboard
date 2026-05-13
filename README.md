@@ -4,6 +4,12 @@
 
 **Tools:** Power BI, DAX, Excel, Data Modelling
 
+#### Business Outcome
+
+This project demonstrates how business intelligence can be used to optimise hospital operations, reduce patient wait times, and support data-driven healthcare decision-making.
+
+---
+
 <img width="1858" height="1046" alt="image" src="https://github.com/user-attachments/assets/ca0b714e-75b7-4f6f-9080-54c04eee1e19" />
 
 ---
@@ -116,11 +122,11 @@ Patients[Patient_ID] 1 ——> * Visits[Patient_ID]
 
 ## 6. DAX Development
 
-**Average Wait Time**
+- **Average Wait Time**
 
 Avg Wait Time := AVERAGE(Visits[Wait_Time_Min])
 
-**Age Category**
+- **Age Category**
 
 Age Category = 
     SWITCH( 
@@ -131,7 +137,7 @@ Age Category =
         ">60" 
     )
 
-**Monthly Visits**
+- **Monthly Visits**
 
 Total Visits := COUNTROWS(Visits)
 
@@ -163,7 +169,8 @@ The final solution provides a multi-faceted view of operations:
 
 ## 9. Hospital Operations Performance Key Insights
 
-#### 1. Overall Operational Efficiency (Average Wait Time)
+### 1. Overall Operational Efficiency (Average Wait Time)
+
 
 **Data Point:** The hospital-wide average wait time is approximately 45 minutes.
 
@@ -180,7 +187,8 @@ The final solution provides a multi-faceted view of operations:
 
 
 
-#### 2. Demographic Demand (Age Category Distribution)
+
+### 2. Demographic Demand (Age Category Distribution)
 
 **Data Point:** The largest patient segment is the Geriatric group (>60), followed by a significant Pediatric volume.
 
@@ -197,7 +205,8 @@ The final solution provides a multi-faceted view of operations:
 
 
 
-#### 3. Patient Volume & Seasonality (Monthly Trends)
+
+### 3. Patient Volume & Seasonality (Monthly Trends)
 
 **Data Point:** Visit volumes fluctuate significantly month-to-month, with visible peaks in specific periods.
 
@@ -214,7 +223,8 @@ The final solution provides a multi-faceted view of operations:
 
 
 
-#### 4. Departmental Bottlenecks (Avg Wait Times by Dept)
+
+### 4. Departmental Bottlenecks (Avg Wait Times by Dept)
 
 **Data Point:** Orthopedics and Pediatrics consistently exhibit the highest average wait times (often exceeding 50–60 minutes).
 
@@ -231,7 +241,8 @@ The final solution provides a multi-faceted view of operations:
 
 
 
-#### 5. Clinical Focus Areas (Most Common Diagnosis by Dept)
+
+### 5. Clinical Focus Areas (Most Common Diagnosis by Dept)
 
 **Data Point:** Hypertension dominates Cardiology, while Flu and Chickenpox drive Pediatric volume.
 
@@ -248,7 +259,8 @@ The final solution provides a multi-faceted view of operations:
 
 
 
-#### 6. Service Mix (Inpatient vs. Outpatient Distribution)
+
+### 6. Service Mix (Inpatient vs. Outpatient Distribution)
 
 **Data Point:** A significant portion of visits result in Inpatient stays, particularly for older age groups.
 
@@ -265,7 +277,8 @@ The final solution provides a multi-faceted view of operations:
 
 
 
-#### 7. Granular Clinical Oversight (Detailed Patient Table)
+
+### 7. Granular Clinical Oversight (Detailed Patient Table)
 
 **Data Point:** Individual records show specific treatment types (e.g., Surgery vs. Medication) linked to specific wait times.
 
@@ -278,6 +291,7 @@ The final solution provides a multi-faceted view of operations:
 </p>
 
 **Insight:** The detailed table allows for Outlier Detection. By auditing the table, clinicians can identify specific cases where wait times exceeded 100 minutes to perform a Root Cause Analysis and prevent such delays from recurring.
+
 
 ---
 
@@ -318,9 +332,12 @@ The final solution provides a multi-faceted view of operations:
 
 ## 14. Skills Demonstrated
 
-* **Technical**: Data Modelling, DAX, Power Query (M), Data Visualization.
-* **Domain**: Healthcare Operations, KPI Framework Design.
-* **Soft Skills**: Analytical Storytelling, Strategic Thinking.
+- Power BI Dashboard Development
+- DAX Measures & Calculated Columns
+- Data Cleaning & Validation
+- Data Modelling
+- Healthcare KPI Analysis
+- Business Intelligence Storytelling
 
 ---
 
